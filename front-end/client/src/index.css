@@ -1,0 +1,602 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+
+@media only screen and (min-width: 0px) {
+
+html {
+  background: linear-gradient(127.2deg, rgba(161, 100, 255, 1) 18.911104627254417%, rgba(91, 64, 255, 1) 85.33564000056816%);
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;}
+* {
+  margin: auto;
+  align-self: center;
+
+}
+.App{
+  margin: auto;
+  position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 30px;
+}
+
+.navbar-container-bigger{
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0px;
+  justify-content: space-between;
+  justify-self:center;
+  width: 100%;
+}
+.navbar-container{
+  display:flex;
+  flex-direction:row;
+}
+
+.Trek-link {
+  font-family: "Monaco";
+  font-style: italic;
+  color: navy;
+  font-size: 100px;
+  font-weight: xxx-bold;
+  outline-width: 3 px;
+  outline-color:darkred;
+  align-self:center;
+  text-decoration: none;
+}
+.Trek-link:hover{
+  color:darkred;
+}
+
+.top-panel{
+  display: grid;
+  margin: grid;
+  background-color: rgba(255, 255, 255, 0.59);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.01);
+  box-sizing: border-box;
+  border-radius: 30px;
+  width: 100%;
+  height: 131px;
+  margin-top: 30px;
+  position: fixed;
+}
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+}
+.links{
+  color: navy;
+  margin-right: 30px;
+  font-size: 30px;
+  justify-content: space-between;
+  border-radius: 30px;
+  display: inline;
+  align-items: center;
+  margin-right: 30px;
+}
+.navbar h1 {
+  justify-content: center;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: navy;
+  outline-color:  rgba(255, 255, 255, 0.59);;
+  outline-offset: 20px;
+}
+.navbar a:active {
+  /* color: darkred; */
+  color: linear-gradient(navy, darkred);
+}
+.sidebar {
+  position: fixed !important;
+  }
+
+.slogan {
+  text-align: center;
+  white-space: pre-wrap;
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-weight: 700;
+  padding-top: 114px;
+}
+
+
+.login-instructions{
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  text-align: center;
+  margin-top: 94px;
+  margin-bottom: 30px;
+  width: 70%;
+}
+
+.google-signin-button {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 38.486881256103516px 71.47562408447266px rgba(0, 0, 0, 0.07);
+  justify-self: center;
+  justify-content: flex-end;
+  align-items: flex-end;
+  box-sizing: border-box;
+  width: 400;
+  height: 100;
+}
+
+.content {
+  flex: right;
+  overflow-y: auto;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  padding-top: 180px; /* offset for fixed header bar */
+  padding-bottom: 100px; /* offset for fixed nav bar */
+}
+
+/* Friends Page */
+
+.request1{
+  background-color: #a76edd;
+  padding-block-start: 10px;
+  padding-bottom: 30px;
+  margin-bottom: 5px;
+  height: 30px;
+  text-align: auto
+  
+}
+.request2{
+  background-color: #a76edd;
+  padding-block-start: 10px;
+  padding-bottom: 30px;
+  margin-bottom: 5px;
+  height: 30px
+}
+.request3{
+  background-color: #a76edd;
+  padding-block-start: 10px;
+  padding-bottom: 30px;
+  margin-bottom: 5px;
+  height: 30px
+}
+.accept-request{
+  background-color: rgb(6, 241, 53);
+  width: 1px;
+  height: 1px;
+  margin: 7px auto;
+  float: right
+}
+.decline-request{
+  background-color: #f00;
+  width: 1px;
+  height: 1px;
+  margin: 7px auto;
+  float: right;
+  padding: left 1px;
+}
+
+.sidebar{
+  height: 69.1%;
+  width: 30%;
+  flex: right;
+  position: absolute;
+  right: 0;
+  
+  padding-top: 40px;
+  background-color: #b9a1de;
+  margin: 50 auto;
+  text-align: center;
+  float:right;
+  overflow: hidden;
+}
+
+.sidebar div {
+padding: 8px;
+font-size: 24px;
+display: block;
+}
+
+.body-text {
+margin-right: 150px;
+font-size: 18px;  
+}
+
+.interpanel-header{
+  color:"darkcyan";
+  font-size: 30;
+}
+
+/* post previews / list */
+.post-preview {
+  box-sizing: border-box;
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.post-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.post-preview h2 {
+  font-size: 20px;
+  color: #8035f1;
+  margin-bottom: 8px;
+}
+.post-preview a{
+  text-decoration: none;
+}
+
+/* post details page */
+.post-details h2 {
+  font-size: 20px;
+  color: #8035f1;
+  margin-bottom: 10px;
+}
+.post-details div {
+  margin: 20px 0;
+}
+.post-details button {
+  background: #8035f1;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* create new blog form */
+.create-post {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  float:center;
+  flex-direction:column;
+  display:flex;
+}
+.create-post label {
+  text-align: left;
+  display: block;
+  font-size: 20px;
+  color:navy;
+  font-weight:500;
+}
+
+.create-post input, .create-post textarea, .create-post select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  /* max-width: 400px; */
+  text-align:center;
+}
+.description-text-box{
+  resize: vertical;
+  max-height: 40 px;
+  border-radius:30px;
+  font-size:18px;
+  padding-left:3px;
+  padding-right:3px;
+}
+.create-post button {
+  background: navy;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.user-info-box-friends{
+  font-weight: 100px;
+}
+
+
+.friends-panel {
+  /* border: 3px solid #fff; */
+  padding-top: 10px;
+}
+
+
+.friends{
+  justify-content: space-between; 
+  /* width: 50%; */
+  float: left;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+
+}
+
+.create {
+  /* width: 100%; */
+  margin: 0 auto;
+  text-align: center;
+  float:left;
+  position: relative;
+}
+.add-friends{
+  padding-top: 30px;
+}
+.create-form {
+  padding-bottom: 20px;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+/* .create h2 {
+  font-size: 20px;
+  color: #8035f1;
+  margin-bottom: 30px;
+} */
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.description-text-box{
+  resize: vertical;
+  max-height: 40 px;
+}
+.create button {
+  background: #8035f1;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Settings Page */
+.settings {
+  width:50%;
+}
+.account-page{
+  width:50%
+}
+.posts-page{
+  width:50%
+}
+.friends-page{
+  width:50%
+}
+.settings-title{
+  text-align: center;
+}
+.change-profile-picture{
+  width: 80%;
+  border: none;
+  background-color: #ddd;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 15px;
+  margin: 10px 0;
+}
+.user-identifiers {
+  align-items: right;
+}
+.change-username{
+  width: 80%;
+  border: none;
+  background-color: #ddd;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 15px;
+  margin: 10px 0;
+}
+.change-personal-info{
+  width: 80%;
+  border: none;
+  background-color: #ddd;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 15px;
+  margin: 10px 0;
+}
+.change-password{
+  width: 80%;
+  border: none;
+  background-color: #ddd;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 15px;
+  margin: 10px 0;
+}
+.delete-account{
+  width: 80%;
+  border: none;
+  background-color: rgb(231, 83, 83);
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 15px;
+  margin: 10px 0;
+}
+.dot {
+  height: 175px;
+  width: 175px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+/** Account Page */
+.account-page{
+  align-self: center;
+  /* padding: 5rem 0rem; */
+  tab-size: 200px;
+  width: 2000;
+}
+.post-panel{
+  display: flexbox;
+  width: 600 px;
+  align-self: center;
+}
+
+.account-header{
+  align-self: center;
+  height: 200px;
+}
+
+.profile-picture {
+  align-items: flex-start;
+}
+
+.name {
+  display: inline-block;
+  align-self: center;
+  /* color: #8035f1; */
+  color: rgba(255, 255, 255, 1);;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.username {
+  display: inline-block;
+  align-self:flex-start;
+  font-size: large;
+}
+
+.post {
+  background-color: rgba(255, 255, 255, 0.59);;
+  border-width:medium;
+  align-items: center;
+  margin: 10pt;
+  padding: 10px;
+  justify-content: space-between;  /* MOVE AROUND */
+  border-radius: 30px;
+  border: 0.1px solid  rgba(255, 255, 255, 0.59);;
+  /* box-shadow: 10px 5px 10px  rgba(255, 255, 255, 0.59);; */
+  box-shadow: 10px 5px 10px  rgba(255, 255, 255, 0.59);;
+}
+
+.post-header{
+  stroke-width: 10px;
+  color:#5B40FF;
+  margin-bottom: 10;
+  padding-left: 10px;
+}
+
+.post-description{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.post-locations{
+  text-align: center;
+  font-size:large;
+}
+
+.post-dates{
+  text-align:center;
+  font-style:italic;
+  /* color: #8035f1; */
+  
+  color: #5B40FF;
+}
+
+.post-fields {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.additional-field::after {
+  content:"\a";
+  white-space: pre;
+}
+
+
+.load-more-button{
+  border: none;
+  outline: none;
+  width: 50%;
+  padding: 10px 0;
+  margin: 6px 0 0 0;
+  background: #ba8dff;
+  color:aliceblue;
+  font-size: 20px;
+  cursor: pointer;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+}
+
+.user-info-box{
+  display: inline-block;
+  position: absolute;
+  padding: 4rem 5rem;
+}
+
+.user-info-box{
+  position: absolute;
+}
+
+.profile-picture {
+  height: 175px;
+  width: 175px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+/** About */
+.about-header{
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  font-weight: 700;
+}
+.aboutUs{
+  width: unset;
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  width: 70%;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/** Home */
+.home-header{
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  color:navy
+}
+
+.page-header{
+  color:navy;
+  font-size: 45px;
+  padding-bottom: "40px";
+  text-align: center;
+  padding:20px;
+}
+
+}

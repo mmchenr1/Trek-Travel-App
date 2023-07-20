@@ -1,0 +1,76 @@
+.repl {
+    position:relative;
+    min-height:95vh;    
+}
+
+.old-input{
+    text-align: left;
+    margin-left: 15%;
+}
+
+.new-input{
+    align-self: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.current-input{
+    align-self: center;
+    color: #282c34;
+    /* width: 50%; */
+    text-align: center;
+    height: 80px;
+    /* align-self: center; */
+
+}
+
+.History-Window{
+    height:60vh;  
+    width: 80%; 
+    align-self: center;
+    margin: auto;
+    display: block;
+    overflow: scroll;
+    border-style: solid;
+    border-color: black;
+}
+
+.Submit-Button{
+    size: 5px;
+    margin: auto;  
+    display: block;
+    color: white;
+    background-color: #282c34;
+    
+}
+
+.REPL-Section {
+    background-color:white;
+    scroll-behavior: smooth;
+    overflow-y:scroll;
+}
+
+.repl-command-box {
+    width: 90%;            
+    margin: auto;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    font: monospace;
+}
+
+button {
+    margin:auto;
+    color: rgb(7, 3, 3);
+    display: block;
+}
+
+.button:hover {
+    margin: auto;
+    display: block;
+    background-color: rgb(12, 1, 6);
+    color: white;
+}
+
+.newOutput {
+    margin: 5px; 
+}
