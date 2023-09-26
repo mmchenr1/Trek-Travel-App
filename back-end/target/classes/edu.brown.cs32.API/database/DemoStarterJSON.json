@@ -1,0 +1,151 @@
+{
+  "posts": {
+    "906420ad-6183-473c-b27e-0e450fe373e5": {
+      "postID": "906420ad-6183-473c-b27e-0e450fe373e5",
+      "startDate": "2023-12-21T05:00:00.000Z",
+      "endDate": "2024-01-21T05:00:00.000Z",
+      "text": "Going home for winter break!",
+      "fromLocation": "Providence, RI",
+      "toLocation": "SC",
+      "type": "PLANE",
+      "userID": "sandra_martinez"
+    },
+    "49c2eb5d-2207-4794-9a1d-4ccae6f8aa51": {
+      "postID": "49c2eb5d-2207-4794-9a1d-4ccae6f8aa51",
+      "startDate": "2032-12-23T05:00:00.000Z",
+      "text": "Spring Break 2023",
+      "fromLocation": "CIT",
+      "toLocation": "Cancun",
+      "type": "Plane",
+      "userID": "sandra_martinez"
+    },
+    "52f9e6ea-fe3d-4b4b-aa80-419ed14a6870": {
+      "postID": "52f9e6ea-fe3d-4b4b-aa80-419ed14a6870",
+      "startDate": "2022-12-23T05:00:00.000Z",
+      "text": "SHOULD NOT BE ABLE TO SEE THIS POST (user not friended)",
+      "toLocation": "x",
+      "type": "CAR",
+      "userID": "extra_user"
+    },
+    "81fe7231-a0eb-4991-ae79-3d7980f144da": {
+      "postID": "81fe7231-a0eb-4991-ae79-3d7980f144da",
+      "startDate": "2022-12-23T05:00:00.000Z",
+      "text": "day trip -- text me if you want to come along!",
+      "toLocation": "Cape Cod",
+      "type": "CAR",
+      "userID": "apoorva_mahendrenath"
+    },
+    "a057d8be-6464-4c4b-b9a5-57cbedbca669": {
+      "endDate": "2023-01-20T05:00:00.000Z",
+      "fromLocation": "Temecula, California",
+      "postID": "a057d8be-6464-4c4b-b9a5-57cbedbca669",
+      "returnFlights": [
+        "BA3991"
+      ],
+      "startDate": "2022-12-30T05:00:00.000Z",
+      "text": "excited for move in! hit me up if you want to carpool from the airport",
+      "toFlights": [
+        "BA2490",
+        "BA2491A"
+      ],
+      "toLocation": "Providence, RI",
+      "type": "PLANE",
+      "userID": "serena_pulopot"
+    },
+    "d0b94817-7654-4c55-8000-fa2f921f7d69": {
+      "endDate": "2024-01-20T05:00:00.000Z",
+      "fromLocation": "Chicago",
+      "postID": "d0b94817-7654-4c55-8000-fa2f921f7d69",
+      "startDate": "2023-12-30T05:00:00.000Z",
+      "text": "still a native new yorker 🍎🍎, give me some restaurant recs for my trip!",
+      "toLocation": "NYC",
+      "type": "PLANE",
+      "userID": "jade_nunez"
+    },
+    "d0faa675-b33d-4bae-a8a6-664e09cfb96a": {
+      "postID": "d0faa675-b33d-4bae-a8a6-664e09cfb96a",
+      "startDate": "2022-12-22T05:00:00.000Z",
+      "text": "Going to Boston... who wants to meet up?",
+      "toLocation": "Back Bay",
+      "type": "TRAIN",
+      "userID": "sam_dobson"
+    },
+    "e83bd416-61da-4fd2-aafa-3ed792514c76": {
+      "postID": "e83bd416-61da-4fd2-aafa-3ed792514c76",
+      "startDate": "3022-12-23T05:00:00.000Z",
+      "text": "omw to make prov a cool place",
+      "toLocation": "Point A",
+      "type": "TRAIN",
+      "userID": "sandra_martinez"
+    }
+  },
+  "users": {
+    "sandra_martinez": {
+      "friends": [
+        "molly_mchenry"
+      ],
+      "name": "Sandra",
+      "postIDS": [
+        "e83bd416-61da-4fd2-aafa-3ed792514c76",
+        "49c2eb5d-2207-4794-9a1d-4ccae6f8aa51"
+      ],
+      "username": "sandra_martinez"
+    },
+    "extra_user": {
+      "name": "friendless",
+      "postIDS": [
+        "52f9e6ea-fe3d-4b4b-aa80-419ed14a6870"
+      ],
+      "username": "extra_user"
+    },
+    "serena_pulopot": {
+      "friends": [
+        "molly_mchenry"
+      ],
+      "name": "serena p",
+      "postIDS": [
+        "d0faa675-b33d-4bae-a8a6-664e09cfb96a"
+      ],
+      "username": "serena_pulopot"
+    },
+    "molly_mchenry": {
+      "friends": [
+        "sam_dobson",
+        "apoorva_mahendrenath",
+        "serena_pulopot",
+        "sandra_martinez",
+        "jade_nunez"
+      ],
+      "name": "Molly",
+      "username": "molly_mchenry"
+    },
+    "sam_dobson": {
+      "friends": [
+        "molly_mchenry"
+      ],
+      "name": "Sammmmm",
+      "username": "sam_dobson"
+    },
+    "apoorva_mahendrenath": {
+      "friends": [
+        "molly_mchenry"
+      ],
+      "name": "Apoorva!",
+      "postIDS": [
+        "81fe7231-a0eb-4991-ae79-3d7980f144da"
+      ],
+      "username": "apoorva_mahendrenath"
+    },
+    "jade_nunez": {
+      "friends": [
+        "molly_mchenry"
+      ],
+      "name": "Jade <3",
+      "postIDS": [
+        "d0b94817-7654-4c55-8000-fa2f921f7d69",
+        "a057d8be-6464-4c4b-b9a5-57cbedbca669"
+      ],
+      "username": "jade_nunez"
+    }
+  }
+}
